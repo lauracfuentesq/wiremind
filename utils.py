@@ -253,7 +253,7 @@ def evaluate_model(model, X_train, y_train, X_test, y_test, products_to_keep, la
 
     # Print the overall metrics
     print('Test set R^2:', r2)
-    print('Test set MSE:', mse)
+    print('Test set RMSE:', rmse)
     print('Test set MAPE:', mape)
 
     print()
